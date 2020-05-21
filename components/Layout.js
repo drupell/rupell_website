@@ -23,7 +23,9 @@ export default function Layout(props) {
                 <link rel="icon" type="image/png"  sizes="32x32" href="/static/title-icon32.png" />
             </Head>
             <Header/>
-                {props.children}
+                <div className={"body"}>
+                    {props.children}
+                </div>
             <Footer/>
         </div>
     )
