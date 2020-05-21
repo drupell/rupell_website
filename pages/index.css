@@ -1,0 +1,7 @@
+.body{
+    margin: 5%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    bottom: 50px;
+}

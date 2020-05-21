@@ -1,0 +1,80 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background:
+            linear-gradient(
+                    rgba(0, 0, 0, 0.25),
+                    rgba(0, 0, 0, 0.25)
+            ),
+            url('/static/background.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header {
+    min-width: 600px;
+    display: flex;
+    height: 50px;
+    padding: 20px;
+    background-color: rgb(34.9, 34.9, 34.9);
+    font-size: 30px;
+    font-family: Serif, serif;
+    top: 20px;
+}
+
+.static-group {
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 50px;
+    left: 10%;
+    margin-right: auto;
+}
+
+.title {
+    display: inline;
+    font-size: 30px;
+    font-family: Serif, serif;
+    margin-left: 20px;
+    color: rgb(230, 229, 229);
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+}
+
+a {
+    font-size: 20px;
+    margin-right: 15px;
+    color: rgb(230, 229, 229);
+    padding: 2px 3px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(79, 79, 79);
+    cursor: pointer;
+}
+
+
+a:active{
+    box-shadow: none;
+    top: 5px;
+}
+
+
+.footer{
+    position: fixed;
+    display: inline-flex;
+    justify-content: space-between;
+    bottom: 0;
+    font-size: 12px;
+    width: 100%;
+    height: 25px;
+    padding: 20px;
+    background-color: rgb(34.9, 34.9, 34.9);
+}
+
