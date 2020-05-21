@@ -33,8 +33,10 @@ Change log:
 05/16/2020:
     Changed card height from 480px.
     Created components folder - houses the header, footer, and layout elements that are used throughout each page.
+    
 05/17/2020:
     Added resume button in InfoCard (with appropriate css) as well as general functionality on resume page.
+    
 05/20/2020:
     Added more documentation, .gitignore file, and git repository for version control.
     Fixed small errors/warnings.
