@@ -1,5 +1,11 @@
-Getting started with this project
-PALETTON BASE RGB: 383838
+This is a personal project started with the intention to refine recently picked up skills and to learn more.
+This file shows initial steps on how I got the project up and running, as well as a changelog that
+displays changes that were made before VCS/git compatibility was added.
+
+Author: David Rupell
+
+Getting started with this project:
+PALETTON BASE RGB: 383838 (used to grab rgb colors and fit it to a theme - accessed at paletton.com)
 Background image is free use stock image, edited in GIMP.
 Logos, pulled from school sites and edited to match scheme.
 
