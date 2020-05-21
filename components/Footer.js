@@ -3,7 +3,7 @@ import React from "react";
 
 /**
  * Creates the footer object which is used in the construction of the layout.
- * Currently adds no additional information, only used for styling and to add a bottom border.
+ * Mostly used for styling and to add a bottom border but could be used for something else down the line.
  *
  * @author drupell
  */

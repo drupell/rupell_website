@@ -21,7 +21,7 @@ const Card = (props) =>  (
                     a concentration in Cyber Security Defense. I currently have a GPA of 4.000 and continue to remain
                     involved on campus as a member of Rowan's Association of Computing Machinery and
                     Cyber Security Club.<br/><br/>
-                    <Link className="inline-link" href={"/resume"}>
+                    <Link href={"/resume"}>
                         <button>Resume</button>
                     </Link>
                     <br/><br/>

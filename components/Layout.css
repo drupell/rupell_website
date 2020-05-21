@@ -69,7 +69,8 @@ a:active{
 .footer{
     position: fixed;
     display: inline-flex;
-    justify-content: space-between;
+    justify-content: center;
+    color: rgb(20, 20, 20);
     bottom: 0;
     font-size: 12px;
     width: 100%;

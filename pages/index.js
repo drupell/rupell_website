@@ -22,7 +22,7 @@ export default class Index extends React.Component{
         // noinspection JSUnresolvedFunction
         return(
                 <Layout>
-                    <div className="body">
+                    <div>
                         {
                             this.props.infoCards.map((infoCard)=>( //Creates an InfoCard for each object in data.json
                                 <InfoCard key={infoCard.id}/> //designates the key as the card's id (from data.json)

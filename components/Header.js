@@ -14,7 +14,6 @@ const Header = () => (
     //title component sets the title text displayed on the browser tab
     <div className="App">
         <header className="header">
-            <title>David Rupell</title>
             <div className="static-group">
                 <img src="/static/logo-CCC.png"
                      className="logo" alt="CCCLogo"
