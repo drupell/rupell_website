@@ -40,6 +40,14 @@ Change log:
 05/20/2020:
     Added more documentation, .gitignore file, and git repository for version control.
     Fixed small errors/warnings.
+    Changes poorly named element to a button and fixes mismatch parameters.
+    Moved title-setting statement to Layout.js, added icons and display functionality. (Icons in static,
+    display in Layout)
+    Adjusted styling for the footer note - moved the text to the center and made it slightly lighter so it didn't 
+    stand out so much.
+    Removed className tags that referred to css styles that were removed in index.js and InfoCard.js.
+    Moved a className tag from index to Layout.
+    Slightly cleaned up some of the documentation.
 
 
 
