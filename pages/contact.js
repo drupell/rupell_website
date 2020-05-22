@@ -1,5 +1,6 @@
 import Layout from '../components/Layout'
 import React from "react";
+import InfoCard from "./InfoCard"
 
 
 /**
@@ -12,10 +13,10 @@ import React from "react";
 
 export default () => (
     <Layout>
-        <div>
-            <h>Contact Info</h>
-            <h3>Email:</h3>
+        <InfoCard>
+            <h1>Contact Info</h1>
+            <h2>Email:</h2>
             <p>drupell7@gmail.com</p>
-        </div>
+        </InfoCard>
     </Layout>
 );
