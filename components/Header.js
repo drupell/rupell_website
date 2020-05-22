@@ -1,6 +1,6 @@
-import Link from 'next/link';
 import  './Layout.css'
 import React from "react";
+import Link from 'next/link';
 
 /**
  * Creates a header that displays CCC and RU logos (schools attended) and my name as the title, followed by links
@@ -11,10 +11,8 @@ import React from "react";
 
 const Header = () => (
 
-    //title component sets the title text displayed on the browser tab
-    <div className="App">
-        <header className="header">
-            <div className="static-group">
+        <header className="header" id="customHeader">
+            <span className="static-group">
                 <img src="/static/logo-CCC.png"
                      className="logo" alt="CCCLogo"
                 />
@@ -22,8 +20,9 @@ const Header = () => (
                      className="logo" alt="RULogo"
                 />
 
-                <h className="title">David Rupell</h>
-            </div>
+                <p className="title">David Rupell</p>
+            </span>
+            
             <nav>
                 <Link href={"/"}>
                     <a>Home</a>
@@ -33,7 +32,7 @@ const Header = () => (
                 </Link>
             </nav>
         </header>
-    </div>
 );
+
 
 export default Header;
