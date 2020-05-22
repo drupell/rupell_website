@@ -1,3 +1,7 @@
+.resume html, body{
+    background: none;
+}
+
 object {
     position: absolute;
     display: block;
