@@ -3,51 +3,62 @@ html, body {
     padding: 0;
     font-family: sans-serif;
     background:
-            linear-gradient(
-                    rgba(0, 0, 0, 0.25),
-                    rgba(0, 0, 0, 0.25)
-            ),
-            url('/static/background.png') no-repeat center center fixed;
+            rgb(34.9, 34.9, 34.9) url('/static/background.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
+/* padding: top right bottom left*/
+.content {
+    justify-content: center;
+    position: absolute;
+    top: 125px;
+    left: 5%;
+    right: 5%;
+    bottom: 0;
+    padding: 25px 0 150px 0;
+}
+
 .header {
-    min-width: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
-    height: 50px;
-    padding: 20px;
+    height: 3vw;
+    width: auto;
+    padding: 2vh;
     background-color: rgb(34.9, 34.9, 34.9);
-    font-size: 30px;
     font-family: Serif, serif;
-    top: 20px;
+}
+
+.logo {
+    height: 3vw;
+    margin-left: 1%;
+    display: inline-flex;
+}
+
+p.title {
+    display: inline;
+    font-size: 3vw;
+    margin-left: 1%;
+    font-family: "Palatino Linotype", Georgia, serif;
+    color: rgb(230, 229, 229);
 }
 
 .static-group {
     margin-right: auto;
     justify-content: space-between;
-}
-
-.logo {
-    height: 50px;
-    left: 10%;
-    margin-right: auto;
-}
-
-.title {
-    display: inline;
-    font-size: 30px;
-    font-family: Serif, serif;
-    margin-left: 20px;
-    color: rgb(230, 229, 229);
+    min-width: 50vw;
 }
 
 nav{
-    display: flex;
+    display: inline-block;
     justify-content: right;
 }
 
 a {
-    font-size: 20px;
+    font-size: 1.25vw;
+    display: inline;
     margin-right: 15px;
     color: rgb(230, 229, 229);
     padding: 2px 3px;
@@ -70,12 +81,12 @@ a:active{
     position: fixed;
     display: inline-flex;
     justify-content: center;
-    color: rgb(20, 20, 20);
+    color: gray;
     bottom: 0;
     font-size: 12px;
     width: 100%;
-    height: 25px;
-    padding: 20px;
+    height: 2vw;
+    padding: 20px 0 20px 0;
     background-color: rgb(34.9, 34.9, 34.9);
 }
 
