@@ -1,6 +1,5 @@
 import './index.css';
 import React from 'react';
-import data from '../data/data.json';
 import Layout from "../components/Layout";
 import InfoCard from './InfoCard';
 import Link from "next/link";
@@ -15,9 +14,6 @@ import Link from "next/link";
  */
 
 export default class Index extends React.Component{
-    static async getInitialProps() { //How you would initialize state with next.js
-        return {infoCards: data} //Gets data and passes it to infoCards prop that we will create.
-    }
 
     render() {
         return(
