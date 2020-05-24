@@ -3,6 +3,7 @@
     background-color: white;
     border-radius: 10px;
     transform-style: preserve-3d;
+    width: 100%;
 }
 
 
@@ -22,7 +23,26 @@ button:hover{
 }
 
 .container {
-    padding: 2px 16px;
+    padding: 2px 16px 16px 16px;
     background-color: white;
     border-radius: 10px;
+    font-size: 18px;
+}
+
+/* Shrink the font below a certain width threshold, but we don't let it depend on size
+    since we don't want it to be unreadable at certain sizes.*/
+@media only screen and (max-width: 600px){
+    .container, button{
+        font-size: 10px;
+    }
+}
+
+/* At very large sizes, the content of the cards should scale to fit, like the header and footer in Layout.*/
+@media only screen and (min-width: 2000px){
+    .container, button {
+        font-size: 1.5vw;
+    }
+    .container{
+        padding: 4px 32px 32px 32px;
+    }
 }
